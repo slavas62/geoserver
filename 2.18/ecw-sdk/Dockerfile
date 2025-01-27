@@ -79,7 +79,7 @@ RUN \
 #
 # GEOSERVER INSTALLATION
 #
-ENV GEOSERVER_VERSION 2.18
+ENV GEOSERVER_VERSION 2.18.7
 
 # Get GeoServer
 RUN wget -c http://downloads.sourceforge.net/project/geoserver/GeoServer/$GEOSERVER_VERSION/geoserver-$GEOSERVER_VERSION-bin.zip -O ~/geoserver.zip &&\
